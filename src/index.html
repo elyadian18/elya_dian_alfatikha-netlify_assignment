@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Elya Dian Alfatikha</title>
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="overflow-x-hidden font-sans">
+    <div class="p-0 m-0 box-border">
+        <nav class="w-screen flex justify-between px-3 py-5 items-center bg-[#5F7161] text-[#fff]">
+            <div class="text-lg cursor-pointer my-0 mx-1.5 text-[#fff] nav-link">
+                <a href="#section-aboutme">Tentang Saya</a>
+                <a href="#section-pengalaman">Pengalaman</a>
+                <a href="#section-pendidikan">Pendidikan</a>
+                <a href="#section-kontak">Kontak</a>
+            </div>
+        </nav>       
+        <header class="w-screen p-20 flex justify-center bg-[#5F7161] text-[#fff] min-h-[560px]">
+            <section class="p-0" id="section-aboutme">
+                <div class="max-w-7xl grid grid-cols-2 column-gap-[18px]">
+                    <div class="w-[560px] h-[560px] grid justify-center content-center gap-5 header-left">
+                        <span class="mr-1.5 text-lg"><img src="lokasi.png" width="25" height="30"/> Semarang, Indonesia </span>
+                        <h1 class="text-7xl">Hello</h1>                
+                        <h1 class="text-7xl">I'm Elya Dian Alfatikha</h1>
+                        <p class="text-xl mr-1.5">
+                            Saya lahir di kota Semarang pada tanggal 18 November 1998. Saya memiliki antusiasme pada bidang TI.
+                            Saya memiliki kemamuan tinggi untuk belajar dan bekerja dilingkungan baru.
+                        </p> 
+                    </div>
+                    <div class="w-[560px] header-right">
+                        <img class="w-[100%] h-[100%] rounded-[50%]" src="me.jpeg" alt="profile-image">
+                    </div>
+                </div>                             
+            </section>
+        </header>
+        <main class="w-screen flex flex-col items-center min-h-[560px]">
+            <section class="w-screen max-w-7xl" id="section-pengalaman">
+                <div class="grid gap-5">
+                    <h1 class="lg:text-center mt-5 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Pengalaman</h1><hr>
+                    <div class="grid grid-cols-2">
+                        <div>          
+                            <h4 class="text-xl">Junior Engineer OPHARSET di PT Indonesia Comnets Plus</h4>
+                            <p class="text-lg">
+                                Sejak april 2018 saya bekerja di ICON+ dengan scope pekerjaan yaitu 
+                                melakukan manage network data, merancang jaringan pelanggan baru, dan menghandle management asset.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl">IT Intern di Universitas Muhammadiyah Semarang</h4>
+                            <p class="text-lg">
+                                Pada tahun 2017, saya magang di Universitas Muhammadiyah Semarang di bagian UPT TIK. Saat magang tersebut saya memiliki beberapa pengalaman, diantaranya :
+                                Troubleshooting jaringan, teknologi wireless, dan teknologi jaringan lainnya.
+                            </p>
+                        </div> 
+                    </div>
+                </div>                              
+            </section>
+            <section class="w-screen max-w-7xl" id="section-pendidikan">
+                <div class="grid gap-5">
+                    <h1 class="lg:text-center mt-5 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Pendidikan</h1><hr>    
+                    <div class="grid grid-cols-2"></div>  
+                        <div>
+                            <h4 class="text-xl">Universitas Dian Nuswantoro</h4>
+                            <p class="text-lg">
+                                Bachelor's degree, Teknologi Informasi · (2019 - 2023)
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl">SMKN 7 Semarang</h4>
+                            <p class="text-lg">
+                                Vocational Student, Teknik Komputer dan Jaringan · (2014 - 2018)
+                            </p>
+                        </div>
+                    </div>  
+                </div>                             
+            </section>
+            <section class="w-screen max-w-7xl pt-20" id="section-kontak">
+                <div class="grid gap-5 p-20 w-[560px] bg-[#5F7161] text-[#fff] contact">
+                    <h2 class="text-lg">Conttact Me</h2>                 
+                    <form class="flex flex-col items-center" method="get">
+                        <label class=" w-full h-10 text-base text-center mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="fname">Nama:</label>
+                        <input class="w-full h-10 text-xs text-center mb-3 mx-0 mt-0 rounded-md bg-[#fff] text-[#5F7161]" type="text" id="name" name="Nama" /><br /><br />
+                        <label class=" w-full h-10 text-base text-center mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="lname" >Email:</label>
+                        <input class="w-full h-10 text-xs text-center mb-3 mx-0 mt-0 rounded-md bg-[#fff] text-[#5F7161]" type="text" id="email" name="Email" /><br /><br />
+                        <label class=" w-full h-10 text-base text-center mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="message">Pesan:</label>
+                        <br />
+                        <textarea class="w-full text-xs text-center mb-3 mx-0 mt-0 rounded-md h-[100px]" id="message" rows="4" cols="50">Tulis pesanmu dengan lengkap di sini</textarea>
+                        <input class="text-sm font-bold cursor-pointer bg-[#3f454d] text-[#fff]" type="submit" id="submit" value="Submit" />
+                    </form>
+                </div>                               
+            </section>
+        </main>
+    </div>
+    </body>
+   <footer class="w-screen flex flex-col items-center bg-[#5F7161] text-[#fff]">
+        <div class="w-full flex justify-center items-center text-sm h-[50px] bg-[#5F7161] text-[#fff]">
+            <a class="font-bold cursor-pointer" href="https://www.linkedin.com/in/elya-dian-alfatikha-b5a04a17a"> LinkedIn </a> || 
+            <a class="font-bold cursor-pointer" href="https://github.com/elyadian18"> Github </a> ||
+            <a class="font-bold cursor-pointer" href="https://www.instagram.com/elyadianalfatikha/"> Instagram </a>
+        </div>
+    </footer> 
+</html>

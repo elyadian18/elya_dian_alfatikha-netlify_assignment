@@ -1,0 +1,134 @@
+/* Responsive */
+
+@media (min-width: 440px) and (max-width: 1079px) {
+  nav {
+    flex-direction: column;
+  }
+
+  header {
+    width: 100vw !important;
+    min-height: 560px;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #section-aboutme {
+    max-width: 1279px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-left {
+    width: 440px;
+    height: 440px;
+    gap: 10px;
+  }
+
+  .header-left > h1 {
+    font-size: 40px;
+  }
+
+  .header-left > p {
+    font-size: 18px;
+  }
+  
+  .header-right {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-right > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #section-pengalaman {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #section-pendidikan {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #section-kontak{
+    width: 440px;    
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 439px) {
+  nav {
+    flex-direction: column;
+  }
+
+  header {
+    width: 100vw !important;
+    min-height: 560px;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #section-aboutme {
+    max-width: 1279px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-left {
+    width: 320px;
+    height: 320px;
+    gap: 10px;
+  }
+
+  .header-left > h1 {
+    font-size: 30px;
+  }
+
+  .header-left > p {
+    font-size: 18px;
+  }
+  
+  .header-right {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-right > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #section-pengalaman {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #section-pendidikan {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #section-kontak{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+  }
+
+}
