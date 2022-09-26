@@ -9,12 +9,12 @@
     </head>
     <body class="overflow-x-hidden font-sans">
     <div class="p-0 m-0 box-border">
-        <nav class="w-screen flex justify-between px-3 py-5 items-center bg-[#5F7161] text-[#fff]">
-            <div class="text-lg cursor-pointer my-0 mx-1.5 text-[#fff] nav-link">
-                <a href="#section-aboutme">Tentang Saya</a>
-                <a href="#section-pengalaman">Pengalaman</a>
-                <a href="#section-pendidikan">Pendidikan</a>
-                <a href="#section-kontak">Kontak</a>
+        <nav class="fixed w-screen flex justify-between px-3 py-3 items-center bg-[#4c554d] text-[#fff]">
+            <div class="text-lg cursor-pointer my-0 mx-1.5 text-[#fff]">
+                <a class="mx-1.5 hover:bg-[#5F7161]" href="#section-aboutme">Tentang Saya</a>
+                <a class="mx-1.5 hover:bg-[#5F7161]"  href="#section-pengalaman">Pengalaman</a>
+                <a class="mx-1.5 hover:bg-[#5F7161]" href="#section-pendidikan">Pendidikan</a>
+                <a class="mx-1.5 hover:bg-[#5F7161]" href="#section-kontak">Kontak</a>
             </div>
         </nav>       
         <header class="w-screen p-20 flex justify-center bg-[#5F7161] text-[#fff] min-h-[560px]">
@@ -29,7 +29,7 @@
                             Saya memiliki kemamuan tinggi untuk belajar dan bekerja dilingkungan baru.
                         </p> 
                     </div>
-                    <div class="w-[560px] header-right">
+                    <div class="w-[560px] ">
                         <img class="w-[100%] h-[100%] rounded-[50%]" src="me.jpeg" alt="profile-image">
                     </div>
                 </div>                             
@@ -41,7 +41,7 @@
                     <h1 class="lg:text-center mt-5 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Pengalaman</h1><hr>
                     <div class="grid grid-cols-2">
                         <div>          
-                            <h4 class="text-xl">Junior Engineer OPHARSET di PT Indonesia Comnets Plus</h4>
+                            <h4 class=" text-xl">Junior Engineer OPHARSET di PT Indonesia Comnets Plus</h4>
                             <p class="text-lg">
                                 Sejak april 2018 saya bekerja di ICON+ dengan scope pekerjaan yaitu 
                                 melakukan manage network data, merancang jaringan pelanggan baru, dan menghandle management asset.
@@ -76,29 +76,29 @@
                     </div>  
                 </div>                             
             </section>
-            <section class="w-screen max-w-7xl pt-20" id="section-kontak">
-                <div class="grid gap-5 p-20 w-[560px] bg-[#5F7161] text-[#fff] contact">
-                    <h2 class="text-lg">Conttact Me</h2>                 
+            <section class="w-screen max-w-5xl pt-20" id="section-kontak">
+                <div class="mb-6 ml-8 grid gap-5 p-20 w-[560px] bg-[#5F7161] text-[#fff] rounded-3xl justify-items-center">
+                    <h2 class="text-xl font-bold">Conttact Me</h2>                 
                     <form class="flex flex-col items-center" method="get">
-                        <label class=" w-full h-10 text-base text-center mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="fname">Nama:</label>
+                        <label class=" w-full text-base mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="fname">Nama:</label>
                         <input class="w-full h-10 text-xs text-center mb-3 mx-0 mt-0 rounded-md bg-[#fff] text-[#5F7161]" type="text" id="name" name="Nama" /><br /><br />
-                        <label class=" w-full h-10 text-base text-center mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="lname" >Email:</label>
+                        <label class=" w-full text-base mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="lname" >Email:</label>
                         <input class="w-full h-10 text-xs text-center mb-3 mx-0 mt-0 rounded-md bg-[#fff] text-[#5F7161]" type="text" id="email" name="Email" /><br /><br />
-                        <label class=" w-full h-10 text-base text-center mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="message">Pesan:</label>
+                        <label class=" w-full text-base mb-3 mx-0 mt-0 rounded-md bg-[#5F7161] text-[#fff]" for="message">Pesan:</label>
                         <br />
                         <textarea class="w-full text-xs text-center mb-3 mx-0 mt-0 rounded-md h-[100px]" id="message" rows="4" cols="50">Tulis pesanmu dengan lengkap di sini</textarea>
-                        <input class="text-sm font-bold cursor-pointer bg-[#3f454d] text-[#fff]" type="submit" id="submit" value="Submit" />
+                        <input class="w-full h-10 rounded-lg text-sm font-bold cursor-pointer bg-[#4c554d] text-[#fff]" type="submit" id="submit" value="Submit" />
                     </form>
                 </div>                               
             </section>
         </main>
     </div>
     </body>
-   <footer class="w-screen flex flex-col items-center bg-[#5F7161] text-[#fff]">
-        <div class="w-full flex justify-center items-center text-sm h-[50px] bg-[#5F7161] text-[#fff]">
-            <a class="font-bold cursor-pointer" href="https://www.linkedin.com/in/elya-dian-alfatikha-b5a04a17a"> LinkedIn </a> || 
-            <a class="font-bold cursor-pointer" href="https://github.com/elyadian18"> Github </a> ||
-            <a class="font-bold cursor-pointer" href="https://www.instagram.com/elyadianalfatikha/"> Instagram </a>
+   <footer class="w-screen flex flex-col items-center bg-[#4c554d] text-[#fff]">
+        <div class="w-full flex justify-center items-center text-sm h-[50px] bg-[#4c554d] text-[#fff]">
+            <a class="font-bold cursor-pointer mx-1.5" href="https://www.linkedin.com/in/elya-dian-alfatikha-b5a04a17a"> LinkedIn </a>
+            <a class="font-bold cursor-pointer mx-1.5" href="https://github.com/elyadian18"> Github </a>
+            <a class="font-bold cursor-pointer mx-1.5" href="https://www.instagram.com/elyadianalfatikha/"> Instagram </a>
         </div>
     </footer> 
 </html>
